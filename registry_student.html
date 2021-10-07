@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Học Viên</title>
+    <style>
+        #urHobby, #registrySec{
+            max-width: 600px;
+            margin: 0 auto;
+            border: 1px solid;
+            padding: 5px;
+        }
+        #urHobby h3{
+            text-align: center;
+            text-transform: uppercase;
+            color: #fff;
+            background: #ff4c00;
+            margin: 0;
+            padding: 5px;
+        }
+        .label_form{
+            color: blue;
+            text-align: right;
+        }
+        #table_2 label{
+            color: #ff8954;
+        }
+
+        
+        #registrySec h3{
+            text-transform: uppercase;
+            color: blue;
+            background: lavender;
+            margin: 0;
+            padding: 5px;
+        }
+        #registrySec .label_form{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <section id="urHobby">
+        <h3>Sở Thích Của Bạn</h3>
+        <form action="" method="POST">
+            <table>
+                <tr>
+                    <td class="label_form">Họ và Tên</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="label_form">Email</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td class="label_form">Sở Thích</td>
+                    <td>
+                        <table id="table_2">
+                            <tr>
+                                <td>
+                                    <input id="hobby1" type="checkbox" name="hobby">
+                                    <label for="hobby1">Thể Thao</label>
+                                </td>
+                                <td>
+                                    <input id="hobby2" type="checkbox" name="hobby">
+                                    <label for="hobby2">Âm Nhạc</label>
+                                </td>
+                                <td>
+                                    <input id="hobby3" type="checkbox" name="hobby">
+                                    <label for="hobby3">Đọc Sách</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input id="hobby4" type="checkbox" name="hobby">
+                                    <label for="hobby4">Lướt Web</label>
+                                </td>
+                                <td>
+                                    <input id="hobby5" type="checkbox" name="hobby">
+                                    <label for="hobby5">Chơi Game</label>
+                                </td>
+                                <td>
+                                    <input id="hobby6" type="checkbox" name="hobby">
+                                    <label for="hobby6">Điện Ảnh</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input id="hobby7" type="checkbox" name="hobby">
+                                    <label for="hobby7">Du Lịch</label>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Gửi thông tin">&nbsp;<input type="reset" value="Nhập lại"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <br><br>
+    <section id="registrySec">
+        <h3>Student Registration</h3>
+        <form action="" method="POST">
+            <table>
+                <tr>
+                    <td class="label_form">Full Name</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="label_form">Birthday</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="label_form">Gender</td>
+                    <td>
+                        <input id="gender1" type="radio">
+                        <label for="gender1">Male</label>
+                        
+                        <input id="gender2" type="radio">
+                        <label for="gender2">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label_form">Address</td>
+                    <td>
+                        <textarea name="" id="" cols="30" rows="3"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label_form">Class</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">__Choose Class__</option>
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label_form">Email</td>
+                    <td>
+                        <input type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label_form">Phone</td>
+                    <td>
+                        <input type="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Registry">&nbsp;<input type="reset" value="Reset"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+</body>
+</html>
