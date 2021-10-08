@@ -1,0 +1,14 @@
+#allTables{
+    width: 600px;
+    margin: 0 auto;
+}
+table{
+    width: 100%;
+    border-spacing: 0;
+}
+.table_2 table tr,
+.table_2 table td,
+.table_2 table th{
+    border: 1px solid #000;
+    padding: 10px;
+}
